@@ -55,10 +55,10 @@ See the [Insights](INSIGHTS.md) file for a deeper discussion of results and appl
 ## Visualizations
 
 ### Model Performance
-![Model Performance](model_performance_test_set.png)
+![Model Performance](images/model_performance_test_set.png)
 
 ### Reddit Communities Network
-![Network Visualization](network_with_predictions.png)
+![Network Visualization](images/network_with_predictions.png)
 
 ### Top Predictions
 ![Top Predictions](images/top_community_pairs.png)
@@ -69,23 +69,4 @@ See the [Insights](INSIGHTS.md) file for a deeper discussion of results and appl
 - Limited to hyperlink interactions only (doesn't capture other forms of interaction)
 - Temporal aspects not fully captured in current model
 
-## License
 
-MIT
-
-## Citation
-
-If you use this code or analysis in your work, please cite:
-```
-@misc{reddit_sentiment_analysis,
-  author = {Your Name},
-  title = {Reddit Community Sentiment Analysis},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/yourusername/reddit-sentiment-analysis}
-}
-```
-
-## Acknowledgments
-
-- [SNAP Stanford](https://snap.stanford.edu/) for providing the Reddit hyperlink dataset
