@@ -61,7 +61,7 @@ See the [Insights](INSIGHTS.md) file for a deeper discussion of results and appl
 ![Network Visualization](network_with_predictions.png)
 
 ### Top Predictions
-![Top Predictions](top_community_pairs.png)
+![Top Predictions](images/top_community_pairs.png)
 
 ## Limitations
 
