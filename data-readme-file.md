@@ -41,27 +41,10 @@ The data is in tab-separated value (TSV) format with the following columns:
 For this analysis, the data is:
 
 1. Loaded from the TSV file
-2. Sampled (if necessary) to make computation manageable
+2. Sampled to make computation manageable
 3. Converted to a directed graph with subreddits as nodes and hyperlinks as edges
 4. Sentiment is binarized to positive (1) or negative (-1)
 
 ## Data Access
 
-Due to the size of the dataset files, they are not included in this repository. To run the analysis, download the data from the [SNAP website](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) and place it in your working directory or specify the full path when running the script.
-
-## Citation
-
-If you use this dataset in your research, please cite:
-
-```
-@inproceedings{kumar2018community,
-  title={Community Interaction and Conflict on the Web},
-  author={Kumar, Srijan and Hamilton, William L. and Leskovec, Jure and Jurafsky, Dan},
-  booktitle={World Wide Web Conference},
-  year={2018}
-}
-```
-
-## License
-
-The Reddit Hyperlink Network dataset is provided by SNAP under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+Due to the size of the dataset files, they are not included in this repository. To run the analysis, download the data from the [SNAP website](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) 
