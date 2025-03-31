@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document shares key findings from my Reddit community sentiment prediction model. The analysis reveals patterns in how subreddits interact and predicts potential sentiment between communities that haven't directly engaged yet.
+Here are my key findings from the Reddit community sentiment prediction model. The analysis reveals patterns in how subreddits interact and predicts potential sentiment between communities that haven't directly engaged yet.
 
 ## Key Findings
 
@@ -11,8 +11,9 @@ This document shares key findings from my Reddit community sentiment prediction 
 I found a major imbalance in sentiment between Reddit communities:
 - About 93% of hyperlinks between subreddits have positive sentiment
 - Only about 7% have negative sentiment
+Thats a good sign :)!
 
-This makes sense - most cross-posting and referencing on Reddit happens in a positive or neutral context. Negative interactions are less common and tend to happen between specific community pairs.
+This also makes sense - most cross-posting and referencing on Reddit happens in a positive or neutral context. Negative interactions are less common and tend to happen between specific community pairs.
 
 ### 2. Feature Importance
 
@@ -22,7 +23,7 @@ The most important features for predicting sentiment between communities are:
 2. **Source PageRank (15.5%)**: How influential the source subreddit is
 3. **Preferential Attachment (15.5%)**: The product of source out-degree and target in-degree
 
-This suggests that community status matters a lot. High-status communities (those with high PageRank) receive different types of interactions compared to lower-status ones.
+This suggests that community status matters a lot. 
 
 ### 3. Network Structure Insights
 
@@ -41,7 +42,6 @@ Some interesting potential positive relationships I found:
 - r/subredditcancer → r/dota2 (0.98 confidence)
 - r/conspiracy → r/gaming (0.98 confidence)
 
-These suggest potential connections between communities with overlapping interests.
 
 #### Top Predicted Negative Relationships
 
@@ -50,7 +50,7 @@ Some potential negative relationships include:
 - r/karmacourt → r/videos (0.85 confidence)
 - r/keto → r/atheism (0.81 confidence)
 
-These might indicate communities with conflicting values or potential tension.
+
 
 ## Model Performance Analysis
 
@@ -74,7 +74,7 @@ The ROC curve (AUC = 0.59) shows the model performs slightly better than random 
 This analysis could help Reddit administrators:
 - Anticipate potential conflicts between subreddits
 - Identify communities that might work well together
-- Develop better moderation strategies for cross-community interactions
+
 
 ### 2. Trend Analysis
 
@@ -86,17 +86,13 @@ The model can spot emerging patterns:
 ### 3. Content Recommendation
 
 Predicted sentiment could improve recommendations:
-- Suggest content from positively-linked communities
-- Avoid recommending content from negatively-linked communities
+- Suggest content from positively-linked communities while avoiding recommending content from negatively-linked communities
 - Help content creators find better cross-posting opportunities
 
 ## Future Directions
 
 1. **Temporal Analysis**: Track how sentiment changes over time
 2. **Content Analysis**: Combine network features with text content
-3. **Multi-class Sentiment**: Go beyond binary sentiment for more nuance
-4. **User-level Analysis**: Look at how individual users affect community sentiment
-5. **Causal Analysis**: Investigate what causes sentiment changes between communities
 
 ## Conclusion
 
