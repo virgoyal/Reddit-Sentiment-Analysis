@@ -1,6 +1,6 @@
 # Reddit Community Sentiment Analysis
 
-This project analyzes Reddit community interactions and predicts sentiment between subreddits based on network features. It uses machine learning to understand existing community relationships and predict potential future interactions.
+This project aims to analyze Reddit community interactions and predicts sentiment between subreddits based on network features. It uses machine learning to understand existing community relationships and predict potential future interactions.
 
 ## Overview
 
@@ -12,8 +12,7 @@ This analysis examines hyperlinks between subreddits and their associated sentim
 - **Feature Engineering**: Extracts graph-based features such as PageRank, degree centrality, and community structure
 - **Machine Learning**: Uses balanced Random Forest classification to predict sentiment
 - **Class Imbalance Handling**: Implements SMOTE oversampling and undersampling techniques
-- **Validation**: Proper cross-validation and holdout test set for robust evaluation
-- **Visualization**: Comprehensive visualizations of model performance and network structure
+
 
 ## Dataset
 
@@ -63,10 +62,6 @@ See the [Insights](INSIGHTS.md) file for a deeper discussion of results and appl
 ### Top Predictions
 ![Top Predictions](images/top_community_pairs.png)
 
-## Limitations
 
-- Class imbalance remains a challenge (93% positive interactions in dataset)
-- Limited to hyperlink interactions only (doesn't capture other forms of interaction)
-- Temporal aspects not fully captured in current model
 
 
