@@ -49,7 +49,7 @@ The model achieves approximately 88% accuracy on the holdout test set, with sign
 2. Target PageRank is the most important feature for sentiment prediction
 3. The model identified interesting potential positive and negative relationships between communities that haven't yet interacted
 
-See the [Insights](INSIGHTS.md) file for a deeper discussion of results and applications.
+See the [Insights](insights-file.md) file for a deeper discussion of results and applications.
 
 ## Visualizations
 
